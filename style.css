@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+h1{ font-family:"courgette";}
+h2{ font-family:"exo 2";}
+p{ font-family:"poppins";}
+
+main#portada h1{
+    color:white;
+    font-size: 50pt;
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 960px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto auto auto auto;
+    
+}
+
+main#portada{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    
+    justify-content: center;
+    flex-direction: column;
+    background-image: url("PORTADA.jpg");
+    background-size:contain;
+    background-position: center;
+   
+    font-style: "Courgette";
+font-size: 40pt;}
+
+
+
+main#portada h2{
+    font-size: 20pt;
+    text-align: center;
+    color: white;
+
+}
+
+
+
+
+
+
+header{
+    background-color:rgb(39, 39, 38) ;
+    grid-column: 1/3;
+    grid-row: 1/2;
+
+}
+header#portada{
+    background-color: black;
+}
+
+header h1{
+    color: #ffffff;
+    font-size: 50pt;
+}
+nav{
+    background-color:#ffffff;
+    grid-column: 1/3;
+    grid-row: 2/3;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px; /* Espaciado interno */
+    
+}
+nav p{
+    color:rgb(39, 39, 38);
+}
+
+aside{
+    background-color: black;
+    grid-column: auto;
+    grid-row:auto;
+    font-size: 15pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+ 
+}
+
+aside img{
+    width: 300px; /* Ajusta el ancho deseado */
+    height: 450px; /* Ajusta la altura deseada */;
+}
+.Quienessomos aside{
+    background-image: url('PNG\ CONTRAPORTADA.png'); /* Reemplaza con la ruta de tu imagen */
+    background-size: cover; /* Ajusta la imagen para cubrir todo el área */
+    background-position: center; /* Centra la imagen */
+    padding: 20px; /* Espaciado interno */
+    color: #ffffff; /* Color del texto */
+    font-size: 15PT;
+
+}
+
+
+.camisetas aside{
+    background-image: url('ENCENDEDOR-CLIPPER-METAL-ROSE-OF-ROSE-GOLD-300x300.png'); /* Reemplaza con la ruta de tu imagen */
+    background-size: cover; /* Ajusta la imagen para cubrir todo el área */
+    background-position:center; /* Centra la imagen */
+    padding: 20px; /* Espaciado interno */
+    color: #ffffff; /* Color del texto */
+}
+
+.CONJUNTODELUX aside {
+    background-image: url('PNG\ CONTRAPORTADA.png'); /* Reemplaza con la ruta de tu imagen */
+    background-size: cover; /* Ajusta la imagen para cubrir todo el área */
+    background-position: center; /* Centra la imagen */
+    padding: 20px; /* Espaciado interno */
+    color: #ffffff; /* Color del texto */
+    font-size: 15PT;
+
+}
+
+article{
+    background-color: rgb(39, 39, 38);
+    grid-column: 2/3;
+    grid-row: 3/4;
+    color: white;
+    font-size: 15PT;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.Quienessomos article img{
+    width: 650PX;
+height: 750px;
+}
+.camisetas article img{  width: 650PX;
+    height: 750px;
+
+}
+
+.CONJUNTODELUXE article img{
+    width: 650PX;
+height: 750px;    
+}
+
+
+
+footer{
+    background-color:rgb(39, 39, 38);
+    grid-column:1/3;
+    grid-row: 4/5;
+}
+footer p{
+    color: white;
+    font-size: 15pt;
+    font-family: "Poppins", sans-serif;
+}
+.Quienessomos{
+    
+    background-image:url("v\ y\ t\ 2.jpg");
+   background-size:cover;
+
+}
+
+.camisetas{
+      
+    background-image:url("v\ y\ t\ 2.jpg");
+   background-size:cover;
+
+}
+
+.CONJUNTODELUXE{
+      
+    background-image:url("v\ y\ t\ 2.jpg");
+   background-size:cover;
+
+}
